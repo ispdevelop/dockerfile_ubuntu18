@@ -14,8 +14,8 @@ RUN apt-get -y update \
 	# go言語環境取得
  	&& mkdir /root/tmp \
  	&& cd /root/tmp \
- 	&& wget https://redirector.gvt1.com/edgedl/go/go1.12.5.linux-amd64.tar.gz \
- 	&& tar -C /usr/local -xzf go1.12.5.linux-amd64.tar.gz \
+ 	&& wget https://redirector.gvt1.com/edgedl/go/go1.15.6.linux-amd64.tar.gz \
+ 	&& tar -C /usr/local -xzf go1.15.6.linux-amd64.tar.gz \
  	&& cd /root \
  	&& mkdir gohome \
  	&& bash \
